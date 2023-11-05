@@ -1,0 +1,183 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/masmoudi/Projects/AirportManagmentt/AM.UI.CONSOLE/AM.UI.CONSOLE.csproj": {}
+  },
+  "projects": {
+    "/Users/masmoudi/Projects/AirportManagmentt/AM.CORE.DOMAIN/AM.CORE.DOMAIN.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/masmoudi/Projects/AirportManagmentt/AM.CORE.DOMAIN/AM.CORE.DOMAIN.csproj",
+        "projectName": "AM.CORE.DOMAIN",
+        "projectPath": "/Users/masmoudi/Projects/AirportManagmentt/AM.CORE.DOMAIN/AM.CORE.DOMAIN.csproj",
+        "packagesPath": "/Users/masmoudi/.nuget/packages/",
+        "outputPath": "/Users/masmoudi/Projects/AirportManagmentt/AM.CORE.DOMAIN/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/masmoudi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/masmoudi/Projects/AirportManagmentt/AM.Core.Services/AM.Core.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/masmoudi/Projects/AirportManagmentt/AM.Core.Services/AM.Core.Services.csproj",
+        "projectName": "AM.Core.Services",
+        "projectPath": "/Users/masmoudi/Projects/AirportManagmentt/AM.Core.Services/AM.Core.Services.csproj",
+        "packagesPath": "/Users/masmoudi/.nuget/packages/",
+        "outputPath": "/Users/masmoudi/Projects/AirportManagmentt/AM.Core.Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/masmoudi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/masmoudi/Projects/AirportManagmentt/AM.CORE.DOMAIN/AM.CORE.DOMAIN.csproj": {
+                "projectPath": "/Users/masmoudi/Projects/AirportManagmentt/AM.CORE.DOMAIN/AM.CORE.DOMAIN.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/masmoudi/Projects/AirportManagmentt/AM.UI.CONSOLE/AM.UI.CONSOLE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/masmoudi/Projects/AirportManagmentt/AM.UI.CONSOLE/AM.UI.CONSOLE.csproj",
+        "projectName": "AM.UI.CONSOLE",
+        "projectPath": "/Users/masmoudi/Projects/AirportManagmentt/AM.UI.CONSOLE/AM.UI.CONSOLE.csproj",
+        "packagesPath": "/Users/masmoudi/.nuget/packages/",
+        "outputPath": "/Users/masmoudi/Projects/AirportManagmentt/AM.UI.CONSOLE/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/masmoudi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/masmoudi/Projects/AirportManagmentt/AM.CORE.DOMAIN/AM.CORE.DOMAIN.csproj": {
+                "projectPath": "/Users/masmoudi/Projects/AirportManagmentt/AM.CORE.DOMAIN/AM.CORE.DOMAIN.csproj"
+              },
+              "/Users/masmoudi/Projects/AirportManagmentt/AM.Core.Services/AM.Core.Services.csproj": {
+                "projectPath": "/Users/masmoudi/Projects/AirportManagmentt/AM.Core.Services/AM.Core.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{56BF6274-BFCB-465F-A4CF-86FCC64DCAEA}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AM.Core.Services FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.AM.UI.CONSOLE PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.AM.Data FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AM.UI.CONSOLE/Program.cs">
+    <Files>
+      <File FileName="AM.UI.CONSOLE/Program.cs" Line="23" Column="38" IsPinned="True" />
+      <File FileName="AM.Core.Services/FlightService.cs" Line="185" Column="1" />
+      <File FileName="AM.Core.Services/IFlightService.cs" Line="17" Column="37" />
+      <File FileName="AM.Core.Extensions/Class1.cs" Line="4" Column="1" />
+      <File FileName="AM.Core.Extensions/FlightExtensions.cs" Line="6" Column="7" />
+      <File FileName="AM.Data/Class1.cs" Line="1" Column="1" />
+      <File FileName="AM.Data/AMContext.cs" Line="22" Column="10" />
+      <File FileName="AM.Data/Configurations/PlaneConfig.cs" Line="6" Column="34" />
+      <File FileName="AM.Data/Configurations/FlightConfig.cs" Line="8" Column="19" />
+      <File FileName="AM.Data/Configurations/PassengerConfig.cs" Line="22" Column="43" />
+      <File FileName="AM.CORE.DOMAIN/Passenger.cs" Line="10" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AirportManagmentt" expanded="True">
+            <Node name="AM.Core.Services" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+            </Node>
+            <Node name="AM.Data" expanded="True">
+              <Node name="Configurations" expanded="True" />
+            </Node>
+            <Node name="AM.UI.CONSOLE" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AM.Core.Extensions FirstBuild="True" />
+</Properties>
